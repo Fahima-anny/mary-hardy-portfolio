@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+header{
+    background-color: #fff8f3;
+   background-image: url(./images/developer.png),url(./images/header_bg.png);
+   background-repeat: no-repeat;
+   background-size:90px, 800px;
+   background-position: left center , right bottom;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 220px;
+}
+
+nav h1 {
+    font-size: 45px;
+}
+
+nav > ul  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style-type: none;
+    color: gray;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+nav > ul li a {
+    color: gray;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.primaryBtn{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+
+/* banner section  */
+#bannerSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 220px;
+}
+
+#bannerSection > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content:start ;
+  align-items: baseline;
+}
+
+#bannerSection > div > h3 {
+    color: gray;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+#bannerSection > div > h1 {
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.para {
+    color: gray;
+    font-size: 16px;
+ 
+}
+
+.btnDiv{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondaryBtn{
+    background-color: #ffffff;
+    color: #FD6E0A;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border:2px solid #FD6E0A ;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+/* about section starts  */
+#aboutSection{
+    margin: 100px 220px;
+    padding: 100px;
+    background-color:#fff8f3 ;
+    text-align: center;
+}
+
+#aboutSection  > div {
+background-color: white;
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+#aboutTxtDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+
+}
+
+.secondaryTxt{
+    font-weight: 600;
+    color: gray;
+    font-size: 18px;
+}
+
+
+/* referenceSection  */
+#referenceSection{
+    margin: 20px 220px;
+    text-align: center;
+}
+
+#cardDiv{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.card{
+    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: start;
+  align-items: baseline;
+    padding: 30px 20px ;
+    text-align: start;
+}
+
+
+/* resume section  */
+#resumeSection{
+    margin: 100px 220px 70px;
+    text-align: start;
+}
+
+#resumeSection > h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#resumeActualDiv{
+    display: flex;
+    gap: 20px;
+}
+
+.ResumeMainDiv{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.resumeDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.resumeTitle{
+    font-size: 23px;
+    color: rgb(71, 71, 71);
+}
+
+.titleH5{
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+}
+
+.resumeP1{
+    color: rgb(117, 117, 117);
+font-size: 18px;
+}
+
+.resumeP2{
+    color: rgb(117, 117, 117);
+font-size: 14px;
+}
+
+#resumeBtn{
+    margin: 80px auto;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    align-items: start;
+    gap: 50px;
+    padding: 100px 220px;
+    background-color: #fff8f3;
+}
+
+footer div ,form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+
+#footerIconDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+input , textarea{
+    display: block;
+    border: none;
+    width:450px;
+    height: 50px;
+    padding:20px 10px ;
+}
+
+
+
+
+
+
+
+
